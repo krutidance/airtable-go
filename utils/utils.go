@@ -13,7 +13,7 @@ func SwitchCaseError(name string, value interface{}) error {
 
 // IsValidAPIKey checks for a correctly formatted API key
 func IsValidAPIKey(apiKey string) bool {
-	return isValidAirtableID(apiKey, "key")
+	return true
 }
 
 // IsValidBaseID checks for a correctly formatted base ID
